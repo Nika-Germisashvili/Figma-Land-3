@@ -1,0 +1,898 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(254, 254, 254, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 120px 0px 120px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.asp {
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.astudio {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.at, .at1 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  -webkit-text-stroke: 0.2px #000000;
+}
+
+.at {
+  margin-left: 60px;
+}
+
+.productagency1 {
+  height: 608px;
+  width: 100%;
+  padding-left: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 123px 0px 0px 52px;
+  z-index: 9;
+}
+
+.h-2 {
+ color: rgba(0, 0, 0, 1);
+ font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 40px;
+ line-height: 49px;
+ -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
+}
+
+.p-1, .p-3, .p-4 {
+  color: rgba(86, 86, 86, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.p-1 {
+  margin: 40px 0px 33px 0px;
+}
+
+.p-2 {
+  margin-top: 17px;
+  font-size: 18px;
+  color: rgba(117, 117, 117, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.button1 {
+  background: rgba(38, 57, 237, 1);
+  width: 215px;
+  height: 65px;
+  border-radius: 60px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.065em;
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 1);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.dots {
+  background-image: url(images/dots.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 404px;
+  height: 154px;
+  position: absolute;
+  top: 469px;
+  z-index: 1;
+}
+
+.el-1 {
+  background: rgba(218, 233, 255, 1);
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  position: absolute;
+  left: 48%;
+  top: 116px;
+  z-index: 1;
+}
+
+.el-2 {
+  position: absolute;
+  background: rgba(255, 245, 219, 1);
+  width: 178px;
+  height: 178px;
+  left: 86%;
+  top: 546px;
+  border-radius: 0px 0px 100px 0px;
+  z-index: 1;
+}
+
+.image-1 {
+  width: 754px;
+  height: 512px;
+  background: url(images/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 0px 200px;
+  z-index: 10;
+}
+
+.part2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.our-client {
+  width: 1200px;
+  height: 124px;
+  display: flex;
+}
+
+.oc {
+  width: 336px;
+}
+
+.logos {
+  padding: 54px 0px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.google-logo {
+  width: 150px;
+  height: 50px;
+  margin-top: 2px;
+}
+
+.airbnb-logo {
+  width: 167px;
+  height: 53px;
+}
+
+.ubereats-logo {
+  width: 167px;
+  height: 28px;
+  margin-top: 13px;
+}
+
+.amazon-logo {
+  width: 142px;
+  height: 43px;
+  margin-top: 17px;
+}
+
+.google-logo, .airbnb-logo, .ubereats-logo {
+  margin-right: 60px;
+}
+
+.content-2 {
+  padding: 360px 0px 0px 39px;
+  z-index: 9;
+}
+
+.howcanwehelp {
+  width: 100%;
+  height: 867px;
+  padding-left: 82px;
+  display: flex; 
+  justify-content: space-between;
+  margin: 94px 0px 146px 0px;
+}
+
+.p-3 {
+  margin-top: 30px;
+}
+
+.el-3 {
+  background: rgba(255, 245, 219, 1);
+  width: 178px;
+  height: 178px;
+  border-radius: 0px 0px 100px 0px;
+  transform: rotate(-180deg);
+  position: absolute;
+  top: 1282px;
+  z-index: 1;
+}
+
+.dots2 {
+  background-image: url(images/dots2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 405px;
+  height: 154px;
+  position: absolute;
+  top: 1626px;
+  margin-left: 43px;
+  z-index: 2;
+}
+
+.b24 {
+  z-index: 4;
+  display: flex;
+}
+
+.backr24 {
+  background: rgba(244, 249, 255, 1);
+  width: 1047px;
+  height: 619px;  
+  border-radius: 150px 0px 0px 0px;
+  margin-top: 140px;
+  z-index: 5;
+  display: flex;
+}
+
+.el-87 {
+  width: 120px;
+  height: 120px;
+  border: 8.8px solid rgba(255, 0, 122, 1);
+  border-radius: 50%;
+  position: absolute;
+  top: 1693px;
+  left: 86%;
+  z-index: 3;
+}
+
+.cards1-2 {
+  margin: -61px 0px 0px 214px;
+  z-index: 7;
+}
+
+.card-1, .card-2 {
+  width: 308px;
+  height: 379px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(242, 242, 242, 1);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  text-align: center;
+}
+
+.card-part-top {
+  padding-top: 39px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-box-1, .image-box-2, .image-box-3, .image-box-4 {
+  width: 121px;
+  height: 121px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box-1 {
+  background: rgba(241, 247, 255, 1);
+}
+
+.image-box-2 {
+  background: rgba(255, 242, 248, 1);
+}
+
+.image-box-3 {
+  background: rgba(255, 247, 227, 1);
+}
+
+.image-box-4 {
+  background: rgba(222, 255, 238, 1);
+}
+
+.img1 {
+  width: 74px;
+  height: 74px;
+}
+
+.h-3 {
+  margin-top: 31px;
+  color: rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 0.3px rgba(0, 0, 0, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.p-2-1 {
+  margin-top: 27px;
+  color: rgba(117, 117, 117, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.card-2 {
+  margin-top: 30px;
+}
+
+.cards-3-4 {
+  margin: -140px 0px 0px 34px;
+  z-index: 7;
+}
+
+.w10 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.great-since {
+  width: 1200px;
+  height: 436px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-great {
+  background: url(images/img4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 372px;
+  border-radius: 32px;
+  border: none;
+  box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+  z-index: 4;
+}
+
+.play {
+  width: 78px;
+  height: 78px;
+  z-index: 4;
+}
+
+.el-86 {
+  background: rgba(255, 245, 219, 1);
+  width: 129px;
+  height: 129px;
+  position: absolute;
+  top: 2302px;
+  border-radius: 50%;
+  margin-left: 462px;
+  z-index: 1;
+}
+
+.content-3 {
+  padding-top: 82px;
+  z-index: 9;
+}
+
+.p-4 {
+  margin-top: 30px;
+}
+
+.re26 {
+  position: absolute;
+  background: rgba(239, 241, 255, 1);
+  width: 178px;
+  height: 178px;
+  top: 2053px;
+  margin-left: -39px;
+  border-radius: 0px 0px 100px 0px;
+  z-index: -1;
+}
+
+.happy-client {
+  width: 100%;
+  height: 597px;
+  text-align: center;
+  margin-top: 117px;
+  padding: 0px 69px 0px 107px;
+}
+
+.p-5 {
+  color: rgba(117, 117, 117, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 17px;
+}
+
+.bottom-div {
+  padding-top: 113px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-happy {
+  background: url(images/smile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 389px;
+  height: 389px;
+  margin-left: 10px;
+  filter: drop-shadow(10px 20px 50px rgba(0, 0, 0, 0.15));
+  border-radius: 500px 0px 500px 500px;
+  z-index: 5;
+}
+
+.dots3 {
+  background-image: url(images/dot3.png);
+  position: absolute;
+  width: 196px;
+  height: 154px;
+  top: 2714px;
+  margin-left: 240px;
+  z-index: 1;
+}
+
+.el-94 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 3013px;
+  border: 8.8px solid rgba(255, 0, 122, 1);
+  border-radius: 50%;
+}
+
+.content-4 {
+  padding-top: 84px;
+  text-align: left;
+}
+
+.h-4 {
+  color: rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 0.4px rgba(0, 0, 0, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.p-6 {
+  color: rgba(86, 86, 86, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 21px;
+}
+
+.gallery {
+  width: 348px;
+  height: 355px;
+  display: flex;
+}
+
+.glc-1, .glc-2, .glc-3, .glc-4, .glc-5, .glc-6, .glc-7, .glc-8 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.glc-1 {
+  background-image: url(images/gl-1.png);
+  width: 98px;
+  height: 98px;
+  top: 2814px;
+}
+
+.glc-2 {
+  background-image: url(images/gl-2.png);
+  width: 68px;
+  height: 68px;
+  top: 2959px;
+}
+
+.glc-3 {
+  background-image: url(images/gl-3.png);
+  width: 68px;
+  height: 68px;
+  top: 2756px;
+  margin-left: 137px;
+}
+
+.glc-4 {
+  background-image: url(images/gl-4.png);
+  width: 120px;
+  height: 120px;
+  top: 2863px;
+  margin-left: 124px;
+}
+
+.glc-5 {
+  background-image: url(images/gl-5.png);
+  width: 98px;
+  height: 98px;
+  top: 3013px;
+  margin-left: 98px;
+}
+
+.glc-6 {
+  background-image: url(images/gl-6.png);
+  width: 54px;
+  height: 54px;
+  top: 2819px;
+  margin-left: 249px;
+}
+
+.glc-7 {
+  background-image: url(images/gl-7.png);
+  width: 54px;
+  height: 54px;
+  top: 2906px;
+  margin-left: 294px;
+}
+
+.glc-8 {
+  background-image: url(images/gl-8.png);
+  width: 68px;
+  height: 68px;
+  top: 2983px;
+  margin-left: 226px;
+}
+
+.el-93 {
+  position: absolute;
+  background: rgba(255, 245, 219, 1);
+  width: 184px;
+  height: 184px;
+  top: 2863px;
+  margin-left: 21px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.pages {
+  margin-top: 40px;
+}
+
+.lb {
+  display: block;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.lb input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.sp, .sp2, .sp3, .sp4, .sp5 {
+  background: rgba(231, 240, 252, 1);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.lb input:checked ~ .sp {
+  background: rgba(38, 57, 237, 1);
+}
+
+.lb input:checked ~ .sp2 {
+  background: rgba(38, 57, 237, 1);
+}
+
+.lb input:checked ~ .sp3 {
+  background: rgba(38, 57, 237, 1);
+}
+
+.lb input:checked ~ .sp4 {
+  background: rgba(38, 57, 237, 1);
+}
+
+.lb input:checked ~ .sp5 {
+  background: rgba(38, 57, 237, 1);
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.sp2 {
+  margin-left: 42px;
+}
+
+.sp3 {
+  margin-left: 84px;
+}
+
+.sp4 {
+  margin-left: 126px;
+}
+
+.sp5 {
+  margin-left: 168px;
+}
+
+
+.wh1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 92px;
+}
+
+.news-letter {
+  width: 1272px;
+  height: 387px;
+}
+
+.inh {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+  z-index: 5;
+}
+
+.rec-30 {
+  background: rgba(244, 249, 255, 1);
+  width: 1197px;
+  height: 292px;
+  border-radius: 75px;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-5 {
+  padding: 98px 0px 0px 92px;
+}
+
+.rec-32 {
+  position: absolute;
+  background: rgba(255, 245, 219, 1);
+  width: 178px;
+  height: 178px;
+  top: 3446px;
+  border-radius: 0px 0px 100px 0px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.cn-right {
+  width: 543px;
+  height: 292px;
+  background-image: url(images/Rectangle31.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  border-radius: 0px 75px 75px 0px;
+}
+
+input[type="email"] {
+  position: absolute;
+  width: 479px;
+  height: 80px;
+  top: 3399px;
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
+  outline: none;
+  margin-left: -34px;
+  padding-left: 34px;
+}
+
+input[type="email"]::placeholder {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(149, 149, 149, 1);
+}
+
+input[type="submit"] {
+  background: rgba(38, 57, 237, 1);
+  width: 188px;
+  height: 60px;
+  border-radius: 60px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.065em;
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 3409px;
+  margin-left: 247px;
+}
+
+.dots5 {
+  background-image: url(images/dots73.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 175px;
+  height: 154px;
+  position: absolute;
+  top: 3237px;
+  margin-left: 1097px;
+}
+
+
+footer {
+  margin-top: 107px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fdiv {
+  width: 1200px;
+}
+
+.hr-1 {
+  height: 0px;
+  background: rgba(228, 228, 228, 1);
+  border: 1px solid rgba(228, 228, 228, 1)
+}
+
+.f-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-content-1 {
+  padding-top: 60px;
+}
+
+.asp2 {
+  font-family: 'Proxima Nova', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.h-5 {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.f-p-1 {
+  color: rgba(86, 86, 86, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-top: 26px;
+}
+
+.h2-f {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 0.4px rgba(0, 0, 0, 1);
+}
+
+.f-right {
+  padding-top: 63px;
+  display: flex;
+}
+
+.a-div {
+  margin-top: 24px;
+}
+
+.ab {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.f-content-2 {
+  margin-left: 151px;
+}
+
+.f-content-3 {
+  margin-left: 123px;
+}
+
+.f-content-4 {
+  margin-left: 106px;
+}
+
+.social {
+ margin: 20px 0px 29px 0px;
+}
+
+.fb, .tt, .lk {
+  width: 36px;
+  height: 36px;
+}
+
+.fb, .tt {
+  margin-right: 16px;
+}
+
+.hr-2 {
+  background: rgba(241, 241, 241, 1);
+  height: 0px;
+  border: 1px solid rgba(241, 241, 241, 1);
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rights {
+  color: rgba(164, 164, 164, 1);
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin: 17px 0px 23px 0px;
+}
+
